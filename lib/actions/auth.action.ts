@@ -29,6 +29,7 @@ export async function signUp(params: SignUpParams) {
 			message: 'Account created successfully. Please sign in.',
 		};
 		//redoplying
+		//redpliny 2 time
 	} catch (e: any) {
 		console.error('Error creating a user', e);
 
